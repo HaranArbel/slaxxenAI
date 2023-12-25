@@ -10,3 +10,7 @@ Build the docker image:
 Run the docker container:
 
 `docker run --name slaxxenai -p 8000:8000 --env-file .env slaxxenai`
+
+run ngrok:
+
+`ngrok http http://localhost:8000`
